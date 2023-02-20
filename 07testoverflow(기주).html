@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07testoverflow.html</title>
+    <style>
+        * {
+            font-size: 30pt;
+            font-family: cooper;
+        }
+
+        .myimg {
+            width: 250px;
+            height: 250px;
+            padding: 3px;
+            margin: 50px;
+            border-radius: 5px;
+            border: 1px dotted grey;
+            float: left;
+        }
+
+        .text {
+            margin-left: 100px;
+        }
+
+        #text {
+            padding-left: 100px;
+        }
+
+        .p1 {
+            color: #ffffff;
+            text-shadow: 0px 0px 35px black;
+        }
+
+        .p3 {
+            color: #ffffffad;
+            text-shadow: 2px 2px 2px rgb(58, 58, 58);
+        }
+
+        .p2 {
+            color: rgba(20, 146, 230, 0.438);
+            text-shadow: 0px 0px 4px black;
+        }
+
+        .p5 {
+            color: rgb(255, 231, 93);
+            text-shadow:
+                2px 2px 0px #0f315e,
+                4px 4px 0px #225392,
+                6px 6px 0px #508ddd;
+        }
+
+        .p4 {
+            color: #03316d;
+            text-shadow: 2px 3px 5px #e5ff00;
+            text-shadow: 4px 4px 5px #eeff5a;
+
+
+        }
+
+        .p6 {
+            color: rgb(17, 212, 154);
+            text-shadow: 2px 2px rgb(39, 39, 39),
+                3px 3px rgb(71, 71, 71),
+                4px 4px rgb(94, 94, 94),
+                5px 5px rgb(121, 121, 121),
+                6px 6px rgb(155, 155, 155),
+                7px 7px rgb(185, 185, 185),
+                8px 8px #8ac;
+        }
+    </style>
+</head>
+
+<body>
+    <!--textshadow 음영 이름 javascript 02-13-월요일-->
+    <p class="p1">Kiju javascript 02-13-Monday </p>
+    <p class="p2">Kiju javascript 02-13-Monday </p>
+    <p class="p3">Kiju javascript 02-13-Monday </p>
+    <p class="p4">Kiju javascript 02-13-Monday </p>
+    <p class="p5">Kiju javascript 02-13-Monday </p>
+    <p class="p6">Kiju javascript 02-13-Monday </p>
+    <br>
+    overflow(auto,hidden,scroll,visible)
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. <br>
+    <div class="myimg" style="overflow:auto"> <img src="./images/apple.png" alt=""></div>
+    <div class="myimg" style="overflow:hidden"> <img src="./images/apple.png" alt=""></div>
+    <div class="myimg" style="overflow:scroll"> <img src="./images/apple.png" alt=""></div>
+    <div class="myimg" style="overflow:visible"> <img src="./images/apple.png" alt=""></div>
+
+    <div style="width:250px; height: 250px; border: 1px solid red; margin-left: 2000px;"></div>
+    <p></p><br><br><br><br><br>
+
+    <img src="./images/aaa.gif" alt=""><br>
+    <div id="text">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+    </div>
+
+
+
+</body>
+
+</html>

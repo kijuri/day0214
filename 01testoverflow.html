@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01testoverflow</title>
+    <style>
+        *{
+            font-size: 14pt;
+        }
+        div{
+            width: 250px;
+            height: 150px;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid grey;
+            float: left;
+        }
+        .myscroll{
+            overflow: scroll;
+        }
+        .myauto{
+            overflow: auto;
+        }
+        .myhidden{
+            overflow: hidden;
+        }
+        .myvisible{
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <h2>01testoverflow.html</h2>
+    <div class="myauto">
+        <b>Auto</b> <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. 
+    </div>
+    <div class="myhidden">
+        <b>Hidden</b> <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. 
+    </div>
+    <div class="myscroll">
+        <b>Scroll</b> <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. 
+    </div>
+    <div class="myvisible">
+        <b>Visible</b> <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. 
+
+    </div>
+</body>
+</html>
